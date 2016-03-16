@@ -1,0 +1,48 @@
+div {
+    padding: 20px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #eee;
+    margin: 20px;
+}
+
+.main > div {
+    background-color: #fff;
+}
+
+.left {
+    display: flex;
+    align-items: flex-start;
+    width: 200px;
+}
+
+.left > img {
+    width: 80px;
+    height: 80px;
+}
+
+.left > span {
+    margin: 0px 7px;
+}
+
+.middle {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.right {
+    width: 120px;
+    padding: 10px 20px;
+}
+
+.right > img {
+    width: 80px;
+    height: 80px;
+    margin: 10px 0;
+}
