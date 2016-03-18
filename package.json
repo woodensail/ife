@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "browser-sync start --server --files '*.*'",
     "1-3-flex": "browser-sync start --server --files \"stage1/task3/\" --startPath stage1/task3/flex.html",
-    "1-4": "browser-sync start --server --files \"stage1/task4/\" --startPath stage1/task4/index.html"
+    "1-4": "browser-sync start --server --files \"stage1/task4/\" --startPath stage1/task4/index.html",
+    "1-5": "browser-sync start --server --files \"stage1/task5/\" --startPath stage1/task5/index.html"
   },
   "repository": {
     "type": "git",
